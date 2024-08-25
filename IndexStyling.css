@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  padding-top: 0%;
+  outline: 2px solid purple;
+}
+
+.HeaderC {
+  outline: 2px solid red;
+  height: 200px;
+  background-color: green;
+}
+
+.Navigation {
+  display: flex;
+  column-gap: 20px;
+  list-style-type: none;
+  text-decoration: none;
+  padding: 10px;
+  background-color: rebeccapurple;
+  height: 30%;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.NavCenter {
+  display: flex;
+  column-gap: 20px;
+}
+
+.NavCenter a {
+  background-color: black;
+  padding: 10%;
+}
+
+.NavItems a:hover {
+  background-color: rgb(125, 2, 2);
+}
+
+.Navigation a {
+  text-decoration: none;
+  color: white;
+}
+
+.NavTitle a {
+  margin-left: 40px;
+}
+.Infotainer a {
+  margin-right: 40px;
+}
+
+.ParaContainer {
+  outline: 2px solid red;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ParaContainer p {
+  font-size: 2rem;
+}
+
+.HeroC {
+  height: 400px;
+  outline: 2px solid blue;
+  background-color: yellow;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  column-gap: 10%;
+}
+
+.LeftHero {
+  background-color: white;
+  height: 70%;
+  width: 60%;
+  margin-left: 10%;
+  margin-top: 5%;
+  display: block;
+  overflow: hidden;
+  outline: 2px solid purple;
+  word-wrap: break-word;
+}
+
+.LeftHero h4 {
+  font-size: 4.5rem;
+  margin-left: 5%;
+}
+
+.LeftHero P {
+  font-size: 2rem;
+  margin-left: 5%;
+}
+
+.LeftHero button {
+  font-size: 2rem;
+  justify-content: end;
+  margin-left: 5%;
+  border-radius: 10px;
+  background-color: rgb(255, 2, 2);
+  padding: 5px;
+  color: white;
+  margin-top: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.LeftHero button:hover {
+  background-color: rgb(239, 219, 0);
+}
+
+.RightHero {
+  background-color: white;
+  height: 70%;
+  width: 40%;
+  margin-right: 10%;
+  margin-top: 5%;
+  outline: 2px solid purple;
+}
+
+.MidContainer {
+  height: 500px;
+  background-color: burlywood;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.OneHeroC {
+  height: 400px;
+  outline: 2px solid blue;
+  background-color: rgb(0, 234, 125);
+  display: flex;
+  justify-content: right;
+  column-gap: 10%;
+}
+
+.OneHero {
+  background-color: rgb(238, 238, 238);
+  height: 70%;
+  width: 50%;
+  margin-right: 10%;
+  margin-top: 5%;
+  display: block;
+  overflow: hidden;
+  outline: 2px solid purple;
+  word-wrap: break-word;
+  text-align: right;
+}
+
+.OneHero h4 {
+  font-size: 4.5rem;
+  margin-left: 5%;
+}
+
+.Pgraph {
+  font-size: 2rem;
+  margin-left: 10px;
+}
+.footer {
+  height: 80px;
+  background-color: blue;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.Logo p {
+  margin-left: 30px;
+}
+
+.LogorIGHT p {
+  margin-right: 30px;
+}
+
+.FooterLeft {
+  column-gap: 10px;
+  text-decoration: none;
+  list-style-type: none;
+}
